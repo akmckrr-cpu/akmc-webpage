@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { busBodyMaterials, getBusBodyMaterialBySlug, getAllBusBodyMaterialSlugs } from "@/lib/data/bus-body-materials";
+import { busBodyMaterials, getBusBodyMaterialBySlug, getAllBusBodyMaterialSlugs } from "@/lib/data/busBodyMaterials";
 import { products, getProductsByCategory } from "@/lib/data/products";
 import { generateWhatsAppLink, generateBreadcrumbSchema } from "@/lib/seo-utils";
 import Script from "next/script";

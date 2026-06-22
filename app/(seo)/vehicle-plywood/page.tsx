@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { vehiclePlywoodItems } from "@/lib/data/vehicle-plywood";
+import { vehiclePlywoodItems } from "@/lib/data/vehiclePlywood";
 import { Truck, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {

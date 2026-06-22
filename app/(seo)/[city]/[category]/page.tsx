@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getLocationPage, getAllLocationPagePaths } from "@/lib/data/seo-pages";
+import { getLocationPage, getAllLocationPagePaths } from "@/lib/data/seoPages";
 import { getCityBySlug } from "@/lib/data/cities";
 import { getCategoryBySlug } from "@/lib/data/categories";
 import { generateLocationPageSchema, generateBreadcrumbSchema, generateWhatsAppLink } from "@/lib/seo-utils";

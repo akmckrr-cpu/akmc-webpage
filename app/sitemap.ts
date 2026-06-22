@@ -1,9 +1,9 @@
 import { MetadataRoute } from "next";
 import { products, getAllProductSlugs } from "@/lib/data/products";
-import { acpDesigns, getAllACPSlugs } from "@/lib/data/acp-designs";
-import { vehiclePlywoodItems, getAllVehiclePlywoodSlugs } from "@/lib/data/vehicle-plywood";
-import { busBodyMaterials, getAllBusBodyMaterialSlugs } from "@/lib/data/bus-body-materials";
-import { getAllLocationPagePaths } from "@/lib/data/seo-pages";
+import { acpDesigns, getAllACPSlugs } from "@/lib/data/acpDesigns";
+import { vehiclePlywoodItems, getAllVehiclePlywoodSlugs } from "@/lib/data/vehiclePlywood";
+import { busBodyMaterials, getAllBusBodyMaterialSlugs } from "@/lib/data/busBodyMaterials";
+import { getAllLocationPagePaths } from "@/lib/data/seoPages";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://akmc.in";
 

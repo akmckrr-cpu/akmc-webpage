@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { products } from "@/lib/data/products";
-import { acpDesigns } from "@/lib/data/acp-designs";
-import { vehiclePlywoodItems } from "@/lib/data/vehicle-plywood";
-import { busBodyMaterials } from "@/lib/data/bus-body-materials";
+import { acpDesigns } from "@/lib/data/acpDesigns";
+import { vehiclePlywoodItems } from "@/lib/data/vehiclePlywood";
+import { busBodyMaterials } from "@/lib/data/busBodyMaterials";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);

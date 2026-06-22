@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { vehiclePlywoodItems, getVehiclePlywoodBySlug, getAllVehiclePlywoodSlugs } from "@/lib/data/vehicle-plywood";
+import { vehiclePlywoodItems, getVehiclePlywoodBySlug, getAllVehiclePlywoodSlugs } from "@/lib/data/vehiclePlywood";
 import { generateWhatsAppLink, generateBreadcrumbSchema } from "@/lib/seo-utils";
 import Script from "next/script";
 import { Truck, ArrowLeft, MessageCircle, Check, Ruler, Box } from "lucide-react";

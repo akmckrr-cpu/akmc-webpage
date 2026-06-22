@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { busBodyMaterials } from "@/lib/data/bus-body-materials";
+import { busBodyMaterials } from "@/lib/data/busBodyMaterials";
 import { Bus, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {

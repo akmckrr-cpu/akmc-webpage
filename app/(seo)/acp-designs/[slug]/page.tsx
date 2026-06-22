@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { acpDesigns, getACPDesignBySlug, getAllACPSlugs } from "@/lib/data/acp-designs";
+import { acpDesigns, getACPDesignBySlug, getAllACPSlugs } from "@/lib/data/acpDesigns";
 import { generateWhatsAppLink, generateBreadcrumbSchema } from "@/lib/seo-utils";
 import Script from "next/script";
 import { Layers, ArrowLeft, MessageCircle, Ruler, Palette, Check } from "lucide-react";

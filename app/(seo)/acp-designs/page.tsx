@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { acpDesigns, getAllSeries } from "@/lib/data/acp-designs";
+import { acpDesigns, getAllSeries } from "@/lib/data/acpDesigns";
 import { Layers, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
