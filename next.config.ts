@@ -8,9 +8,6 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "res.cloudinary.com" },
     ],
   },
-  experimental: {
-    dynamicIO: true,
-  },
 };
 
 export default nextConfig;
